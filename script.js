@@ -12,14 +12,14 @@ var speed = 50;
 
 //function for network error message
 const sent1 = [
-  "Your device is not connected.",
-  "Make sure '[—]' is turned on and in range.",
-  "Now discoverable as '[—]'.",
-  "Connection unsuccessful.",
-  "Your connection is unstable.",
-  "Out of range.",
-  "Unexpected device.",
-  "Bad connection.",
+  "You say you are sick and she brings you some fruit. Mela (apple) and Male (sick). You breathe through the nausea and eat it anyway.",
+  "Google translate doesn't understand dialect.",
+  "The only villager left embraces you and weeps. She knows you, but you don't know who she is.",
+  "Zia straightens the quilt on the bed where your mother was born. Zio climbs the hill and returns with 2 gallons of olive oil.",
+  "The neighbours hang their quilts for the procession of Santo Todaro.",
+  "You accidentally say a sexual inuendo. They laugh, you blush.",
+  "Each mountain has a different title. 'This is our mountain', zio tells you, and this you understand.",
+  "The wild boar groans a goodbye.",
 ];
 
 const buttonRetry = document.getElementById("button-network");
