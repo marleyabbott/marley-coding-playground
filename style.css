@@ -5,7 +5,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 12px;
   margin: 2em;
-   background-image: url("https://cdn.glitch.global/edca4e94-5883-4294-a9b4-adbd31162978/img20231005_13481185.jpg?v=1741744294460");
+   background-image: url("https://cdn.glitch.global/edca4e94-5883-4294-a9b4-adbd31162978/sj-objio-XFWiZTa2Ub0-unsplash.jpg?v=1742184806059");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -124,7 +124,7 @@ h5 {
   min-height: 375px;
   border-radius: 10px 10px 10px 10px;
   text-align: center;
-  background-color: green;
+  background-color: #b8dee0;
   color: white;
   font-family: "PT Serif", serif; /* font for <p> text */
   font-size: 14px;
