@@ -12,14 +12,14 @@ var speed = 50;
 
 //function for network error message
 const sent1 = [
-  "Your device is not connected.",
-  "Make sure '[—]' is turned on and in range.",
-  "Now discoverable as '[—]'.",
-  "Connection unsuccessful.",
-  "Your connection is unstable.",
-  "Out of range.",
-  "Unexpected device.",
-  "Bad connection.",
+  "You say you are sick and she brings you some fruit. Mela (apple) and Male (sick). You breathe through the nausea and eat it anyway.",
+  "Google translate doesn't understand dialect.",
+  "The only villager left embraces you and weeps. She knows you, but you don't know who she is.",
+  "Zia straightens the quilt on the bed where your mother was born. Zio climbs the hill and returns with 2 gallons of olive oil.",
+  "The neighbours hang their quilts for the procession of Santo Todaro.",
+  "You accidentally say a sexual inuendo. They laugh, you blush.",
+  "Each mountain has a different title. 'This is our mountain', zio tells you, and this you understand.",
+  "The wild boar groans a goodbye.",
 ];
 
 const buttonRetry = document.getElementById("button-network");
@@ -57,22 +57,25 @@ function dropdownFunction() {
 //start of haiku function
 //lists of variables: replace all of the 5 and 7 syllable constants in the two arrays below. The more constants you write, the more variety you will have in your poem
 const fiveSyllables = [
-  "jon you are my pet",
-  "garfield was in the oven",
-  "pizza is a dream",
-  "hand over the cheese",
-  "parmesean is life",
-  "i am so hungry",
-  "where did odie go",
-  "get it your damn self",
-  "obey me human",
+  "2,3,5 pit stops",
+  "you call your mother",
+  "the door wide open",
+  "sign accross your chest",
+  "rosary in fist",
+  "the water runs out",
+  "framed pictures of saints",
+  "the broken language"
 ];
 const sevenSyllables = [
-  "cheese makes everything better",
-  "the noodles must be wavey",
-  "nothing left to do but sleep",
-  "thinking about lasagne",
-  "yuk, no i don't want salad",
+  "they drive you to the village",
+  "on the outside stucco wall",
+  "the local catholic channel",
+  "hope you will see her again",
+  "covering the questions",
+  "price tag on a cruicifix",
+  "strega with a hooked nose",
+  "bed where your mother was born",
+  "they lead you up a sloped street",
 ];
 //code for haiku function (do not edit)
 const buttonHaiku = document.getElementById("button-haiku");
@@ -156,11 +159,11 @@ textInput.addEventListener("input", changeText);
 //start of code for poem
 
 const subjects =
-    "robots, pilgrims, broken families, displaced animals, right-wing militants, cyborgs".split(
+    "zia, zio, broken families, ring-shaped mosquito, right-wing militants, cyborgs".split(
       ","
     ),
   verbs =
-    "wander,search, cross, kneel to pray in, avoid, survey, sneak across, hide in".split(
+    "prepare, pluck, cross, kneel to pray in, decline, retract, chew, swallow".split(
       ","
     ),
   objects =
