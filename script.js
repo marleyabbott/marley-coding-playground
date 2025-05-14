@@ -40,16 +40,16 @@ function addEval(evalText) {
 //think about what use you might have for a dropdown menu: you could have someone select their 'mood' and give them an appropriate song, a bit of good or bad advice, an emoji, etc.
 function dropdownFunction() {
   var x = document.getElementById("subject").value;
-  if (x === "flighty") {
-    addEval("🛩️🐦🦅🦋🌪️💭");
-  } else if (x === "vague") {
-    addEval("🥱👽🐙🪼🌘");
-  } else if (x === "joyful") {
-    addEval("😀😍😸👾👻🕺");
-  } else if (x === "cloudy") {
-    addEval("🌦️🌨️🫧🌫️☔⚡🥶");
-  } else if (x === "hangry") {
-    addEval("🍟🥨🌮🥗🍱");
+  if (x === "familiar") {
+    addEval("🫂🧬🌀");
+  } else if (x === "homesick") {
+    addEval("🌘🕸️🌔");
+  } else if (x === "nauseous") {
+    addEval("👁️👄✋🏼");
+  } else if (x === "insignificant") {
+    addEval("💒🕯️🌪️");
+  } else if (x === "awe-struck") {
+    addEval("🌄🏚️⛰️");
   }
 }
 //end of dropdown function
@@ -159,7 +159,7 @@ textInput.addEventListener("input", changeText);
 //start of code for poem
 
 const subjects =
-    "zia, zio, broken families, ring-shaped mosquito, right-wing militants, cyborgs".split(
+    "zia, zio, broken families, village, vomit, home-made red wine, strega with a hooked nose, wild boar, cross shaped price tag on the back of the crucifix".split(
       ","
     ),
   verbs =
@@ -167,7 +167,7 @@ const subjects =
       ","
     ),
   objects =
-    "the barren plains,the wilted grasslands, vast wastelands,wildernesses unknown,languishing caravan parks, arid deserts, military bunkers, valleys of ash and bone".split(
+    "the bar,the slope, the rubble on the road, bile tainted with track changes, wild translation".split(
       ","
     );
 // set up the counter

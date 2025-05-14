@@ -56,12 +56,12 @@
 
   <div class="row">
     <!-- formatting and words for title of poem - edit the poem title and your name-->
-    <div class="column-wide">
+    <div class="column-wide" style="width: 100%; max-width: 1200px;">
       <!-- specifies the width of the card -->
       <div class="cardTitle">
-        <h1>The Tank</h1>
+        <h1>the tank</h1>
         <!-- the h1 header tag is inherited from the page's 'body' style specified in the stylesheet - if you want to change the h1 font you can create a new class in the stylesheet similar to the specified h3 and h5 classes -->
-        <h5>Miranda Abbott</h5>
+        <h5>miranda abbott</h5>
         <!-- you can edit the styling of the h5 font in the stylesheet -->
       </div>
     </div>
@@ -122,33 +122,53 @@ Outside the bathroom window, a soccer ball is tossed between small dirty soles.
         </div>
       </div>
 
-      <!-- formatting and words for text message exchanges-->
+      
+  <body>
+    <div class="row">
+      <!-- formatting and words for phone notes-->
       <div class="columnL">
         <!-- specifies the width of the card-->
-        <div class="cardText">
-          <p class="bubble">hey</p>
-          <p class="bubble">hey</p>
-          <p class="bubble">sup</p>
-          <p class="bubble bubble--alt">new phone who dis</p>
-          <p class="bubble">...</p>
+        <div class="paperNotes">
+          <p>The tank was not like the round water tank you see in your mind when your mother tells you they lived in a water tank. 
+
+Now you know the tank was cut in half and turned on its side so that the side  of the old image becomes the real roof. 
+
+At night in your proper bedroom with the slated roof and the insulated walls, the clothes on the back of your chair become a Strega with a hooked nose. She doesn’t scare you. But her morning acts of disappearance do. 
+
+As a child in the bedroom, you could imagine many places better to live than a water tank. The bedroom that could fit the water tank inside of it maybe, if you could visualise and then measure the parameters.  
+
+You walk the parameters of the story , graze your hand on the corrugated iron edges.  
+
+</p>
+          <br />
+          <!--inserts a line break -->
+          <p>
+          </p>
+          <br />
+          <p>
+          </p>
+          <br />
+          <br />
+          <p>
+          </p>
         </div>
       </div>
-
+      
       <!-- formatting and words for dropdown poem function-->
       <div class="columnL">
         <!-- specifies the width of the card -->
         <div class="cardDropdown">
           <!-- edit the cardDropdown class in style.css to change the look -->
           <!-- title of dropdown poem -- edit the title and the option values, making sure the option values then match up with those in the dropdownFunction in the script.js file-->
-          <h2>Moods got me like</h2>
+          <h2>Pendulum</h2>
           <br />
           <select id="subject" class="text-box" onchange="dropdownFunction()">
             <option value="">Select a feeling</option>
-            <option value="flighty">flighty</option>
-            <option value="vague">vague</option>
-            <option value="joyful">joyful</option>
-            <option value="cloudy">cloudy</option>
-            <option value="hangry">hangry</option>
+            <option value="familiar">familiar</option>
+            <option value="homesick">homesick</option>
+            <option value="nauseous">nauseous</option>
+            <option value="insignificant">insignificant</option>
+            <option value="awe-struck">awe-struck</option>
           </select>
           <br />
           <!-- results of dropdown menu go here-->
@@ -182,27 +202,6 @@ Outside the bathroom window, a soccer ball is tossed between small dirty soles.
         </div>
       </div>
 
-      <!-- formatting and words for search engine-->
-      <div class="column">
-        <!-- specifies the width of the card-->
-        <div class="cardSearch">
-          <!-- edit the cardSearch class in style.css to change the look-->
-          <img
-            src="https://cdn.glitch.com/02600171-b43e-46dd-a21e-bfc0b9a82267%2Fsearching.gif?v=1620460284530"
-            lt="Searching"
-          />
-          <!-- this image is the 'searching' gif, but you can design a different heading, upload it to 'assets' and replace the above URL -->
-          <br />
-          <input
-            id="text-input"
-            type="text"
-            class="text-box"
-            placeholder="Type a letter"
-            length="1"
-          />
-          <div id="text-wrapper"></div>
-        </div>
-      </div>
 
       <!-- formatting and words for poem-->
       <div class="columnXl">
